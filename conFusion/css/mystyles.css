@@ -43,7 +43,6 @@ address{
 
 .modal-dialog
 {
-   width:50%;
    color:black !important;
 }
 
@@ -58,4 +57,10 @@ address{
     top: 0;
     left: 0;
     min-height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+        width: 700px;
+    }
 }
